@@ -1,6 +1,9 @@
 import React from "react";
 import BasicCard from "../../component/card";
-
+import eat from "../../Images/eat-da-burger.png"
+import alcoCall from "../../Images/alcoCallV3.png"
+import dayPlanner from "../../Images/dayPlanner.png"
+import weather from "../../Images/weatherApp.png"
 
 
 
@@ -21,7 +24,7 @@ return (
       <div className="row my-3">
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
-        Image="Assets\Images\weatherApp.png"
+        Image={weather}
         CardTitle="weather App"
         HREF="https://imartinez0753.github.io/weatherDashboard/"
         buttonText1="weather App"
@@ -34,7 +37,7 @@ return (
         
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
-        Image="Assets/Images/dayPlanner.png"
+        Image={dayPlanner}
         CardTitle="Day Planner"
         HREF="https://imartinez0753.github.io/dayPlanner/"
         buttonText1=" Day Planner"
@@ -59,7 +62,7 @@ return (
         
           
         <BasicCard 
-        Image="Assets/Images/alcoCallV3.png"
+        Image={alcoCall}
         CardTitle="Alcocall"
         HREF="https://fathomless-cove-53726.herokuapp.com/"
         buttonText1=" Alcocall"
@@ -70,7 +73,7 @@ return (
        
         <div className="col-sm-4 col-md-6 col-lg-4">
         <BasicCard 
-        Image="Assets\Images\eat-da-burger.png"
+        Image={eat}
         CardTitle="Eat-Da_burger"
         HREF="https://stark-beach-02156.herokuapp.com/"
         buttonText1="Eat-Da_burger"
